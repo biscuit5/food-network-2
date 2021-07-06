@@ -7,16 +7,15 @@ h1 {
 .header-color {
   color: blueviolet;
 }
-section {
+.fexible-contraner {
   display: flex;
-  margin-bottom: 30px;
 }
 .first-width {
   width: 50%;
   border: 10px 20px;
 }
 .first-width img {
-  width: 80%;
+  width: 50%;
   padding-left: 10px;
   padding-right: 5px;
   border-right: 15px;
@@ -39,4 +38,10 @@ section {
   background-repeat: no-repeat;
   border-radius: 10px;
   background-position: auto;
+}
+.tittle-area {
+  background-image: url(images/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  box-shadow: 10px 20px 30px;
+  margin: 5px;
 }

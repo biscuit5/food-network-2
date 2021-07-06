@@ -9,6 +9,7 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 30px;
 }
 .first-width {
   width: 50%;
@@ -18,7 +19,7 @@ section {
   width: 80%;
   padding-left: 10px;
   padding-right: 5px;
-  border-right: 10px;
+  border-right: 15px;
   border-left: 15px;
 }
 .link-button {
@@ -31,4 +32,11 @@ section {
   background-image: url(images/Frame\ 58.jpg);
   border-radius: 5px;
   padding-right: 5px;
+  background-repeat: no-repeat;
+}
+.about-me {
+  background-image: url(images/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: auto;
 }
